@@ -11,19 +11,6 @@ body {
   /* overflow: hidden; */
 }
 
-/* #background-video {
-  position: fixed;
-  right: 0;
-  left: 0;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: -1;
-  background: repeat;
-  background-size: cover;
-} */
-
 #header {
   position: fixed;
   top: 0;
