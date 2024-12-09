@@ -1,0 +1,124 @@
+body {
+  font-family: "Oswald", serif;
+  background: linear-gradient(to right bottom, #8A2BE2, #66CDAA);
+  background-image: url("images/pexels-marek-piwnicki-3907296-7430464.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  color: #FF7F50;
+  text-align: center;
+  margin: 0;
+  padding-top: 200px;
+  /* overflow: hidden; */
+}
+
+/* #background-video {
+  position: fixed;
+  right: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+  background: repeat;
+  background-size: cover;
+} */
+
+#header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin-top: 0;
+  padding: 0;
+  height: 150px;
+  font-family: "Barrio", serif;
+  font-size: 40px;
+  background-color: rgba(203, 255, 118, 0.705); /* Optional background for readability */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  mix-blend-mode: screen;
+  color: rgb(0, 0, 0);
+  z-index: 1;
+}
+
+h2 {
+  font-family: "Barriecito", system-ui;
+  font-size: 40px;
+}
+
+p {
+  color: #7effd4;
+}
+
+a {
+  color: #FF7F50;
+  text-decoration: none;
+}
+
+li {
+  display: inline;
+  letter-spacing: 5px;
+  font-size: 60px;
+  margin-top: 5px;
+}
+
+#profile-pic {
+  border-radius: 50%;
+  width: 200px;
+}
+
+#button {
+  background-color: #66CDAA;
+  padding: 10px 20px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 3px #430979;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+#button:hover {
+  color: #66CDAA;
+  background-color: #FF7F50;
+}
+
+a:hover {
+  color: #66CDAA;
+}
+
+.text-box {
+  background-color: rgba(1, 20, 20, 0.5);
+  width: 75%;
+  margin: 25px auto;
+  padding: 10px;
+  border-radius: 10px;
+  align-items: center;
+}
+
+#link-box {
+  border-radius: 50%;
+  width: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 0;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
